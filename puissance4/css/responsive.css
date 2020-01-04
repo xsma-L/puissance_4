@@ -1,0 +1,131 @@
+ body{
+        font-weight: bold;
+        font-size: large;
+        background-image:url(fond.jpg);
+        background-repeat:repeat;
+    }
+
+    #debut{
+        font-size: 30px;
+        border-radius: 50%;
+        margin-top: 18%;
+        height: 133px;
+        margin-left: 39%;
+    }
+
+    .joueur {
+        border: 2px solid black;
+        box-shadow: 10px 5px 5px black;
+        border-radius: 5%;
+        height: 124px;
+        width: 46%;
+        margin-left: 73%;
+        text-align: center;
+        position: relative;
+        top: 168px;
+    }
+
+    .couleur{
+        border: 2px solid black;
+        margin-top: 1px;
+        margin-left: 71px;
+        height: 61px;
+        width: 66px;
+        border-radius: 72%;
+    }
+
+    .joueur_couleur{
+        border: 2px solid black;
+        border-radius: 52%;
+        height: 97px;
+        width: 97px;
+        background-color: white;
+    }
+
+    #plateau {
+        border: 2px solid black;
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .cell{
+        border: 2px solid black;
+        border-radius: 52%;
+        height: 97px;
+        width: 97px;
+        background-color: white;
+    }
+    
+    .cell:hover{
+        cursor: pointer;
+    }
+
+    .j1 {
+        border: 2px solid black;
+        box-shadow: 10px 5px 5px black;
+        height: auto;
+        width: 23%;
+        text-align: center;
+        border-radius: 11%;
+        padding: 21px;
+        position: relative;
+        top: 72px;
+        margin-left: 12%;
+        position: relative;
+        top: 116px;
+    }
+
+    .j2 {
+        border: 2px solid black;
+        box-shadow: 10px 5px 5px black;
+        height: auto;
+        width: 23%;
+        text-align: center;
+        border-radius: 11%;
+        padding: 21px;
+        position: relative;
+        top: 30px;
+        margin-left: 140%;
+    }
+
+
+    #efface {
+        font-weight: bold;
+        border-radius: 19%;
+        height: 34px;
+        width: 126px;
+        background-color: #33CC00;
+        color: #CC0000;
+        box-shadow: 10px 5px 5px black;
+        margin-left: 13%;
+        position: relative;
+        top: 67px;
+        margin-bottom: 14%;
+    }
+
+    #efface:hover{
+        cursor: pointer;
+    }
+
+    #replay {
+        font-weight: bold;
+        border-radius: 27%;
+        height: 34px;
+        width: 126px;
+        color: #FFFF66;
+        background-color: #CC99FF;
+        box-shadow: 10px 5px 5px black;
+        margin-left: 134%;
+        position: relative;
+        bottom: 21px;
+    }
+
+    #replay:hover{
+        cursor: pointer;
+        background-color: #FF99FF;
+        color: gold;
+    }
